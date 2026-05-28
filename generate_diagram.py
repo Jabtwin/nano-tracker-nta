@@ -23,12 +23,12 @@ ax.axis('off')
 plt.title("Nano Particle Tracking Analysis (NTA) - Workflow", fontsize=16, fontweight='bold')
 
 # Boxes
-draw_box(ax, 3.5, 8.5, 3, 1, "1. Upload NTA Video\n(Streamlit UI)", facecolor='#e6f2ff')
-draw_box(ax, 3.5, 6.5, 3, 1, "2. Image Processing\n(OpenCV: Grayscale, Blur, Threshold)", facecolor='#fff2e6', edgecolor='#cc6600')
-draw_box(ax, 3.5, 4.5, 3, 1, "3. Particle Detection\n(Find Contours & Moments)", facecolor='#e6ffe6', edgecolor='#009900')
-draw_box(ax, 3.5, 2.5, 3, 1, "4. Kalman Filter\n(Predict & Update trajectory)", facecolor='#ffe6e6', edgecolor='#cc0000')
-draw_box(ax, 1, 0.5, 3, 1, "5. Physics Calculation\n(MSD & Stokes-Einstein)", facecolor='#f2e6ff', edgecolor='#6600cc')
-draw_box(ax, 6, 0.5, 3, 1, "6. Report Generation\n(Matplotlib Charts)", facecolor='#f2e6ff', edgecolor='#6600cc')
+draw_box(ax, 3.0, 8.5, 4, 1, "1. Upload NTA Video\n(Streamlit UI)", facecolor='#e6f2ff')
+draw_box(ax, 3.0, 6.5, 4, 1, "2. Image Processing\n(OpenCV: Grayscale, Blur, Threshold)", facecolor='#fff2e6', edgecolor='#cc6600')
+draw_box(ax, 3.0, 4.5, 4, 1, "3. Particle Detection\n(Find Contours & Moments)", facecolor='#e6ffe6', edgecolor='#009900')
+draw_box(ax, 3.0, 2.5, 4, 1, "4. Kalman Filter\n(Predict & Update trajectory)", facecolor='#ffe6e6', edgecolor='#cc0000')
+draw_box(ax, 0.75, 0.5, 3.5, 1, "5. Physics Calculation\n(MSD & Stokes-Einstein)", facecolor='#f2e6ff', edgecolor='#6600cc')
+draw_box(ax, 5.75, 0.5, 3.5, 1, "6. Report Generation\n(Matplotlib Charts)", facecolor='#f2e6ff', edgecolor='#6600cc')
 
 # Arrows
 draw_arrow(ax, 5, 8.5, 5, 7.5)
