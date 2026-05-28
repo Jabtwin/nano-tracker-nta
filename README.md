@@ -6,7 +6,7 @@ Software for simulating the **Kalman Filter** algorithm to correct AI detection 
 
 Below is the architecture and processing flow of the application:
 
-![NTA Workflow Architecture](images/architecture.png)
+![NTA Workflow Architecture](images/architecture.png?v=2)
 
 ## 🛠 Installation & Usage Guide
 
