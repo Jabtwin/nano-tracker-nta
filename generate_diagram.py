@@ -15,8 +15,8 @@ def draw_arrow(ax, x_start, y_start, x_end, y_end):
                 arrowprops=dict(arrowstyle="->", color="black", lw=2, shrinkA=5, shrinkB=5))
 
 fig, ax = plt.subplots(figsize=(10, 8))
-ax.set_xlim(0, 10)
-ax.set_ylim(0, 10)
+ax.set_xlim(-0.5, 10.5)
+ax.set_ylim(-0.5, 10.5)
 ax.axis('off')
 
 # Title
